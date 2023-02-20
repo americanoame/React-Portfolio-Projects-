@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+export default function Navbar() {
     return (
 
         <header className="navbar">
@@ -18,7 +18,7 @@ const Navbar = () => {
                         About
                     </Link>
 
-                    <Link className="" to="/Project">
+                    <Link className="" to="/project">
                         Project
                     </Link>
 
@@ -37,4 +37,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+// export default Navbar;

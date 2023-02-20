@@ -1,6 +1,7 @@
 import React from 'react';
+// import { Link } from 'react-router-dom';
 
-const Project = () => {
+export default function Project() {
     return (
 
         <div>
@@ -9,4 +10,4 @@ const Project = () => {
     )
 }
 
-export default Project;
+// export default Project;
