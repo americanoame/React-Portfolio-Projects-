@@ -5,22 +5,34 @@ import Navbar from './components/Navbar';
 import About from './pages/About';
 import Project from './pages/Project';
 
-import Footer from './components/Footer';
+// import Footer from './components/Footer';
 
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Navbar />} />
-        <Route path="/" element={<About />} />
-        <Route path="/" element={<Project />} />
-        
-        <Route path="/" element={<Footer />} />
+      <div>
 
+        <Routes>
+          <Route path="/"
+            element={<About />}
+          />
 
+          <Route
+            path="/project"
+            element={<Project />}
+          />
+          
+            <Route
+            path="/navbar"
+            element={<Navbar/>}
+          /> 
 
-      </Routes>
-
+          {/* <Route
+            path="/resume"
+            element={<Resume />}
+          />  */}
+        </Routes>
+      </div>
     </Router>
   );
 }

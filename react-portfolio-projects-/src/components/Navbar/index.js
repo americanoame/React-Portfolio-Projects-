@@ -1,39 +1,41 @@
-import React from 'react'
+import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
+import * as AiIcons  from 'react-icons/ai';
+import * as FaIcons from 'react-icons/fa';
+import { SidebarData } from '../SidebarData';
+import './Navbar.css';
 
 export default function Navbar() {
+    const [sidebar, setSidebar] = useState(false)
+
+    const showSidebar = () => setSidebar(!sidebar);
     return (
-
-        <header className="navbar">
-            <div>
-                <div>
-                    <Link to="/">
-                        <h1 className="">Andre Silva</h1>
-                    </Link>
-                    <p className="">I'm frontend developer.</p>
-                </div>
-
-                <div>
-                    <Link className="" to="/about">
-                        About
-                    </Link>
-
-                    <Link className="" to="/project">
-                        Project
-                    </Link>
-
-                    <Link className="" to="/contact">
-                        Contact
-                    </Link>
-
-                    <Link className="btn btn-lg btn-light m-2" to="/resume">
-                        Resume
-                    </Link>
-                </div>
-
-
+        <>
+            <div className="navbar">
+                <Link to='#' className='menu-bars'>
+                    <FaIcons.FaBars onClick={showSidebar} />
+                </Link>
             </div>
-        </header>
+            <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
+                <ul className='nav-menu-items'>
+                    <li className='navbar-toggle'>
+                        <Link to='#' className='menu-bar'>
+                        <AiIcons.AiOutlineClose />
+                        </Link>
+                    </li>
+                    {SidebarData.map((item, index) => {
+                        return(
+                            <li key={index} className={item.mLamb}>
+                                <Link to={item.path}>
+                                    {item.icon}
+                                    <span>{item.title}</span>
+                                </Link>
+                            </li>
+                        )
+                    })}
+                </ul>
+            </nav>
+        </>
     )
 }
 
