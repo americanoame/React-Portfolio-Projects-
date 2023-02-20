@@ -8,4 +8,19 @@ export const SidebarData = [
         icon: <AiIcons.AiFillHome />,
         mLamb: 'nev-text'
     },
+    {
+        title: "Project",
+        path: '/project',
+        mLamb: 'nev-text'
+    },
+    {
+        title: "Contact",
+        path: '/contact',
+        mLamb: 'nev-text'
+    },
+    {
+        title: "Resume",
+        path: '/resume',
+        mLamb: 'nev-text'
+    },
 ]
