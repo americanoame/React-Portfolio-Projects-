@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
 
 export default function Navbar() {
+    const [isMobile, setIsMobile] = useState(false);
     return (
         <nav className='navbar'>
             <h3 className='andreSilva'>Andre Silva</h3>
-            <p className='frontEnd'> &lt; FrontEnd Dev/&gt; </p>
-            <ul className='navLinks'>
+            <ul className={isMobile ? 'nav-links-mobile' : 'navLinks'}
+            onclick={() => setIsMobile(false)}
+            >
                 <Link to='/' className='about'>
                     <li>About</li>
                 </Link>
@@ -22,6 +24,15 @@ export default function Navbar() {
                 </Link>
 
             </ul>
+
+            <button className='mobile-menu-icon'
+            onclick={() => setIsMobile(!isMobile)}>
+                {isMobile ? (
+                    <i className='fas fa-times'></i>
+                ) : (
+                    <i className='fas fa-bars'></i>
+                )}
+            </button>
 
         </nav>
     )
