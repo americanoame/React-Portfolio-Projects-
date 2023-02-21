@@ -1,9 +1,9 @@
 .navbar {
   background-color: rgb(229, 229, 229);
   height: 160px;
-  display: flex;
+  /* display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: center; */
 }
 
 .andreSilva {
