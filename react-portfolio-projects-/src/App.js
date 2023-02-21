@@ -8,7 +8,9 @@ import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 
-// import Footer from './components/Footer';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+import Footer from './components/Footer';
 
 export default function app() {
   return (
@@ -33,6 +35,8 @@ export default function app() {
         </Route>
 
       </Routes>
+
+      <Footer />
     </Router>
   )
 }

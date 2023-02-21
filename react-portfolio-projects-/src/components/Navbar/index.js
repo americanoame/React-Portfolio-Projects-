@@ -8,7 +8,7 @@ export default function Navbar() {
         <nav className='navbar'>
             <h3 className='andreSilva'>Andre Silva</h3>
             <ul className={isMobile ? 'nav-links-mobile' : 'navLinks'}
-            onclick={() => setIsMobile(false)}
+            onClick={() => setIsMobile(false)}
             >
                 <Link to='/' className='about'>
                     <li>About</li>
@@ -26,7 +26,7 @@ export default function Navbar() {
             </ul>
 
             <button className='mobile-menu-icon'
-            onclick={() => setIsMobile(!isMobile)}>
+            onClick={() => setIsMobile(!isMobile)}>
                 {isMobile ? (
                     <i className='fas fa-times'></i>
                 ) : (
