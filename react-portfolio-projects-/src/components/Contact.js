@@ -1,13 +1,13 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 
-export default function Project() {
+export default function Contact() {
     return (
 
         <div>
-            <h1>Project</h1>
+            <h1>contact</h1>
         </div>
     )
 }
 
-// export default Project;
+// export default About;

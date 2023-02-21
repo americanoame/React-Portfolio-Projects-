@@ -1,12 +1,67 @@
 .navbar {
     background-color: rgb(229, 229, 229);
-    height: 80px;
+    height: 160px;
     display: flex;
-    justify-content: start;
+    justify-content: space-around;
     align-items: center;
   }
 
-  .menu-bars {
+  .andreSilva {
+    font-size: 30px;
+    color: rgb(128, 133, 150);
+  }
+
+  .frontEnd {
+    font-size: 20px;
+    color: rgba(163, 175, 169, 0.92);
+    font-weight: 700;
+    
+  }
+
+  .navLinks {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    /* width: 65%; */
+  }
+
+  .about,
+  .portfolio,
+  .contact,
+  .resume {
+    text-decoration: none;
+    color: rgb(128, 133, 150);
+    font-size: 20px;
+    padding: 10px;
+    /* margin: 0 10px; */
+  }
+
+  .resume {
+    color: rgb(66, 64, 64);
+    border-radius: 10px;
+    background: rgb(128, 133, 150);;
+  }
+
+  .resume:hover {
+    background: rgb(146, 162, 119);
+    color: #fff;
+  }
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* .menu-bars {
     margin-left: 2rem;
     font-size: 2rem;
     background: none;
@@ -70,4 +125,4 @@
     margin-left: 16px;
   }
 
-  
+   */
