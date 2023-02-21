@@ -1,5 +1,4 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 
 export default function Contact() {
     return (
@@ -10,4 +9,3 @@ export default function Contact() {
     )
 }
 
-// export default About;
