@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
@@ -15,20 +16,20 @@ export default function app() {
       <Navbar />
 
       <Routes>
-        <Route path='/' component={About} exact>
-          <About />
+        <Route path='/' element={<About/>}>
+          
         </Route>
 
-        <Route path='/portfolio' component={Portfolio} exact>
-          <Portfolio />
+        <Route path='/portfolio' element={<Portfolio/>}>
+          
         </Route>
 
-        <Route path='/Contact' component={Contact} exact>
-          <Contact />
+        <Route path='/Contact' element={<Contact/>}>
+          
         </Route>
 
-        <Route path='/resume' component={Resume} exact>
-          <Resume />
+        <Route path='/resume' element={<Resume/>}>
+          
         </Route>
 
       </Routes>
