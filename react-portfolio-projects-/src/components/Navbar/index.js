@@ -8,8 +8,7 @@ export default function Navbar() {
         <nav className='navbar d-flex justify-content-evenly'>
             <a href='/' className='andreSilva'>Andre Silva</a>
             <ul className={isMobile ? 'nav-links-mobile' : 'navLinks'}
-            onClick={() => setIsMobile(false)}
-            >
+                onClick={() => setIsMobile(false)}>
                 <Link to='/' className='about'>
                     <li>About</li>
                 </Link>
@@ -26,7 +25,7 @@ export default function Navbar() {
             </ul>
 
             <button className='mobile-menu-icon'
-            onClick={() => setIsMobile(!isMobile)}>
+                onClick={() => setIsMobile(!isMobile)}>
                 {isMobile ? (
                     <i className='fas fa-times'></i>
                 ) : (
