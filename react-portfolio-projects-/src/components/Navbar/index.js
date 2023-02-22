@@ -6,7 +6,7 @@ export default function Navbar() {
     const [isMobile, setIsMobile] = useState(false);
     return (
         <nav className='navbar d-flex justify-content-evenly'>
-            <h3 className='andreSilva'>Andre Silva</h3>
+            <a href='/' className='andreSilva'>Andre Silva</a>
             <ul className={isMobile ? 'nav-links-mobile' : 'navLinks'}
             onClick={() => setIsMobile(false)}
             >

@@ -6,6 +6,15 @@
   align-items: center; */
 }
 
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: rgb(146, 162, 119);
+}
+
+
 .andreSilva {
   font-size: 30px;
   color: rgb(128, 133, 150);
@@ -41,11 +50,11 @@
   color: rgb(66, 64, 64);
   border-radius: 10px;
   background: rgb(128, 133, 150);
-  ;
+  
 }
 
 .resume:hover {
-  background: rgb(146, 162, 119);
+  background: red;
   color: #fff;
   transition: all .2s;
 }
