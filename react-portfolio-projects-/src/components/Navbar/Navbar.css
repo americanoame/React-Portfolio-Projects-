@@ -15,7 +15,12 @@
 }
 
 
-.andreSilva {
+/* .andreSilva {
+  font-size: 30px;
+  color: rgb(128, 133, 150);
+} */
+
+span {
   font-size: 30px;
   color: rgb(128, 133, 150);
 }
@@ -27,15 +32,15 @@
 
 } */
 
-.navLinks {
+/* .navLinks {
   display: flex;
   justify-content: flex-end;
   list-style: none;
   /* width: 75%; */
 
-}
+/* }  */
 
-.about,
+/* .about,
 .portfolio,
 .contact,
 .resume {
@@ -45,10 +50,17 @@
   padding: 10px 20px;
   margin: 0 10px;
   cursor: pointer;
+} */
+
+
+.nav-item {
+
+  color: rgb(128, 133, 150);
+  font-size: 20px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
 }
-
-
-
 
 
 .resume {
@@ -66,10 +78,7 @@
 
 
 
-
-
-
-.mobile-menu-icon {
+/* .mobile-menu-icon {
   display: none;
 }
 
@@ -131,7 +140,7 @@
 
   }
 }
-
+ */
 
 
 

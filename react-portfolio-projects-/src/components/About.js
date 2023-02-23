@@ -23,7 +23,6 @@ export default function About() {
                         <p className='lead text-muted mb-3'>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                         <p className='lead text-muted mb-3'>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                         <p className='lead text-muted mb-3'>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                        <p className='lead text-muted mb-3'>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
 
                     </div>
                 </div>
