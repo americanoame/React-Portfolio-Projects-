@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
-import About from './components/About';
+import About from './pages/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
@@ -15,7 +15,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function App() {
   const [currentPage, setCurrentPage] = useState('About');
 
-  //  console.log(About)
+   console.log(About)
   const renderPage = () => {
     if (currentPage === 'About') {
       return <About />;
@@ -23,7 +23,7 @@ export default function App() {
     if (currentPage === 'Portfolio') {
       return <Portfolio />;
     }
-    if (currentPage === 'Resume') {
+    if (currentPage === 'Contact') {
         return <Contact />;
       }
     return <Resume />;

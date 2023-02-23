@@ -9,7 +9,7 @@ function Navbar({ currentPage, handlePageChange }) {
 
         <div className="navbar d-flex justify-content-center">
 
-         <nav className="navbar fixed-top navbar-expand-lg  justify-content-end">
+         <nav className="navbar fixed-top navbar-expand-lg justify-content-end">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="#about" onClick={() => handlePageChange('About')}>
                         <span className="brand">Andre Silva</span>
