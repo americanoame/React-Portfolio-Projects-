@@ -1,11 +1,14 @@
 // import React, {useState} from "react";
 import Projects from './Projects';
+import img1 from '../images/notaker.png';
+import img2 from '../images/googlesearch.png';
+import img3 from '../images/e-commerce.png';
 
 export default function Portfolio() {
 
     const images = [
       {
-        src: '/react-portfolio/images/Social-Network-API.jpg',
+        src: img1,
         alt: 'Note-Taker',
         title: 'Note-Taker',
         description: 'An Express.js App',
@@ -13,7 +16,7 @@ export default function Portfolio() {
         github: 'https://github.com/americanoame/Note-Taker'
       },
       {
-        src: '/react-portfolio/images/Social-Network-API.jpg',
+        src: img2,
         alt: 'Note-Taker',
         title: 'Note-Taker',
         description: 'An Express.js App',
@@ -21,7 +24,7 @@ export default function Portfolio() {
         github: 'https://github.com/americanoame/Note-Taker'
       },
       {
-        src: '/react-portfolio/images/Social-Network-API.jpg',
+        src: img3,
         alt: 'Note-Taker',
         title: 'Note-Taker',
         description: 'An Express.js App',

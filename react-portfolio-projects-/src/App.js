@@ -15,7 +15,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 export default function App() {
   const [currentPage, setCurrentPage] = useState('About');
 
-   console.log(About)
+  //  console.log(About)
   const renderPage = () => {
     if (currentPage === 'About') {
       return <About />;
