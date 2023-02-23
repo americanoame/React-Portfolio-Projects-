@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
-import './Footer.css';
+import '../../styles/Footer.css';
 
 const Footer = () => (
   <footer className='navbar d-flex justify-content-evenly'>
