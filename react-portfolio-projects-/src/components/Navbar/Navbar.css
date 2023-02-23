@@ -6,6 +6,12 @@
   align-items: center; */
 }
 
+
+
+
+
+
+
 .navbar a {
   text-decoration: none;
 }
@@ -53,13 +59,22 @@ span {
 } */
 
 
+
+
+
 .nav-item {
+  
+  
+
+
 
   color: rgb(128, 133, 150);
   font-size: 20px;
   padding: 10px 20px;
   margin: 0 10px;
   cursor: pointer;
+
+  
 }
 
 
@@ -141,6 +156,14 @@ span {
   }
 }
  */
+
+ @media screen and (max-width: 991px) {
+    .navbar {
+      height: 65px;
+
+      background: rgb(159, 203, 159);
+    }
+ }
 
 
 

@@ -6,9 +6,10 @@ import React, {useState} from 'react';
 import Navbar from './components/Navbar';
 import About from './components/pages/About';
 import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
-import Resume from './components/Resume';
+import Contact from './components/pages/Contact';
+import Resume from './components/pages/Resume';
 import Footer from './components/Footer';
+// import Projects from './components/pages/Projects';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
