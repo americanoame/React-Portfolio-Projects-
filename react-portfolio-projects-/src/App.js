@@ -4,7 +4,7 @@ import React, {useState} from 'react';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
-import About from './pages/About';
+import About from './components/pages/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
