@@ -1,8 +1,9 @@
-// import React, {useState} from "react";
 import Projects from './Projects';
-import img1 from '../images/notaker.png';
-import img2 from '../images/googlesearch.png';
-import img3 from '../images/e-commerce.png';
+import img1 from '../images/Good1.png';
+import img2 from '../images/Good2.png';
+import img3 from '../images/Good1.png';
+import img4 from '../images/Good2.png';
+import img5 from '../images/Good1.png';
 
 export default function Portfolio() {
 
@@ -10,42 +11,33 @@ export default function Portfolio() {
     {
       src: img1,
       alt: 'Note-Taker',
-      title: 'Note-Taker',
+      title: 'Redux-e-commerce-platform',
       description: 'An Express.js App',
-      deployed: 'https://heroku-demo-2022-11-andre.herokuapp.com/',
-      github: 'https://github.com/americanoame/Note-Taker'
     },
     {
+      // id: 2,
       src: img2,
       alt: 'Note-Taker',
-      title: 'Note-Taker',
+      title: 'Redux-e-commerce-platform',
       description: 'An Express.js App',
-      deployed: 'https://heroku-demo-2022-11-andre.herokuapp.com/',
-      github: 'https://github.com/americanoame/Note-Taker'
     },
     {
       src: img3,
       alt: 'Note-Taker',
       title: 'Note-Taker',
       description: 'An Express.js App',
-      deployed: 'https://heroku-demo-2022-11-andre.herokuapp.com/',
-      github: 'https://github.com/americanoame/Note-Taker'
     },
     {
-      src: '/react-portfolio/images/Social-Network-API.jpg',
+      src: img4,
       alt: 'Note-Taker',
       title: 'Note-Taker',
       description: 'An Express.js App',
-      deployed: 'https://heroku-demo-2022-11-andre.herokuapp.com/',
-      github: 'https://github.com/americanoame/Note-Taker'
     },
     {
-      src: '/react-portfolio/images/Social-Network-API.jpg',
+      src: img5,
       alt: 'Note-Taker',
       title: 'Note-Taker',
       description: 'An Express.js App',
-      deployed: 'https://heroku-demo-2022-11-andre.herokuapp.com/',
-      github: 'https://github.com/americanoame/Note-Taker'
     },
   ]
 

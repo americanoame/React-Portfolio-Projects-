@@ -1,11 +1,26 @@
 #backgoun2 {
-    background: rgb(177, 235, 177);
+    background-image: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8));
+    border-radius: 15px;
+
+    
+    padding: 20px;
+
+    
+    
+    
     
 }
 
 #projects {
     
 }
+ 
+@media screen and (max-width: 575px) {
+    #backgoun2 {
+        padding: 20px;
+    }
+ } 
+
 
   
   
