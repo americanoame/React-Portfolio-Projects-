@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import '../../styles/Contact.css';
 
 const Email = () => {
   const form = useRef();
@@ -20,7 +21,7 @@ const Email = () => {
   return (
     <section>
       <div className="container">
-        <h2 className="--text-center">Report Your Concerns</h2>
+        <h2 className="--text-center"></h2>
         <form ref={form} onSubmit={sendEmail}
          
         className="--form-control --card
