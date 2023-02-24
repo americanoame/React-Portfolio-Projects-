@@ -17,9 +17,10 @@ export default function Portfolio() {
     {
       // id: 2,
       src: img2,
-      alt: 'Note-Taker',
+      alt: 'Redux',
       title: 'Redux-e-commerce-platform',
-      description: 'An Express.js App',
+      description: 'Redux',
+      link: 'https://github.com/americanoame/Redux-e-commerce-platform'
     },
     {
       src: img3,

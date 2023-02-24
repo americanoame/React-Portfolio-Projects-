@@ -6,7 +6,8 @@ export default function Projects({ images }) {
     console.log(images)
     return (
         <>
-            {images.map(({ src, alt, title, description,}) => (
+        
+            {images.map(({ src, alt, title, description, link}) => (
                 <div id='backgoun2' className="col-12 col-sm-6 col-lg-4" key={alt}>
 
                     <div className="container">
@@ -14,7 +15,7 @@ export default function Projects({ images }) {
 
                     </div>
                     <div className="card-body">
-                        <button href='https://github.com/americanoame/Redux-e-commerce-platform' className="card-title pt-2">{title}</button>
+                        <a href={link} className="card-title pt-2">{title}</a>
                         <p className="card-text pb-3">{description}</p>
                     </div>
 
