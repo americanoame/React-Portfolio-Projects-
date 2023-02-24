@@ -1,16 +1,12 @@
 .navbar {
   background-color: rgb(229, 229, 229);
   height: 160px;
+  position: sticky;
+
   /* display: flex;
   justify-content: space-around;
   align-items: center; */
 }
-
-
-
-
-
-
 
 .navbar a {
   text-decoration: none;
@@ -20,54 +16,15 @@
   color: rgb(146, 162, 119);
 }
 
-
-/* .andreSilva {
-  font-size: 30px;
+.brand {
+  font-size: 40px;
   color: rgb(128, 133, 150);
-} */
-
-span {
-  font-size: 30px;
-  color: rgb(128, 133, 150);
+  margin-left: 20px;
+  font-family: 'Franklin Gothic Medium', 
+  'Arial Narrow', Arial, sans-serif;
 }
 
-/* .frontEnd {
-  font-size: 20px;
-  color: rgba(163, 175, 169, 0.92);
-  font-weight: 700;
-
-} */
-
-/* .navLinks {
-  display: flex;
-  justify-content: flex-end;
-  list-style: none;
-  /* width: 75%; */
-
-/* }  */
-
-/* .about,
-.portfolio,
-.contact,
-.resume {
-  text-decoration: none;
-  color: rgb(128, 133, 150);
-  font-size: 20px;
-  padding: 10px 20px;
-  margin: 0 10px;
-  cursor: pointer;
-} */
-
-
-
-
-
 .nav-item {
-  
-  
-
-
-
   color: rgb(128, 133, 150);
   font-size: 20px;
   padding: 10px 20px;
