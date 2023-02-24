@@ -1,11 +1,9 @@
 .navbar {
-  background-color: rgb(229, 229, 229);
+  background: linear-gradient(217deg, rgba(137, 132, 132, 0.8), rgba(255,0,0,0) 70.71%),
+  linear-gradient(127deg, rgba(153, 188, 153, 0.113), rgba(0,255,0,0) 70.71%),
+  linear-gradient(336deg, rgba(107, 107, 137, 0.268), rgba(0,0,255,0) 70.71%);
   height: 160px;
   position: sticky;
-
-  /* display: flex;
-  justify-content: space-around;
-  align-items: center; */
 }
 
 .navbar a {
@@ -31,10 +29,8 @@
   margin: 0 10px;
   cursor: pointer;
   z-index: 1;
-
   
 }
-
 
 .resume {
   color: rgb(66, 64, 64);
@@ -50,71 +46,6 @@
 }
 
 
-
-/* .mobile-menu-icon {
-  display: none;
-}
-
-@media screen and (max-width: 780px) {
-  .andreSilva {
-    display: flex;
-    position: absolute;
-    top: 15px;
-    left: 35px;
-  }
-
-  .navLinks {
-    display: none;
-
-  }
-
-  .nav-links-mobile {
-    position: absolute;
-    display: block;
-    list-style: none;
-    background-color: rgb(163, 163, 163);
-    left: 0;
-    top: 75px;
-    transition: all 0.5s ease-in-out;
-    width: 100%;
-
-    z-index: 999;
-
-  }
-
-  .about,
-  .portfolio,
-  .contact,
-  .resume {
-
-    color: rgb(146, 162, 119);
-    text-align: center;
-    padding: 32px;
-    width: 100%;
-    transition: all 0.5s ease;
-  }
-
-  .mobile-menu-icon {
-    display: block;
-    position: absolute;
-    font-size: 30px;
-    color: #fff;
-    background-color: rgb(146, 162, 119);
-    border: none;
-    outline: none;
-    top: 15px;
-    right: 25px;
-
-    width: 3rem;
-
-    box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
-      rgba(60, 64, 67, 0.15) 0 2px 4px 3px;
-
-
-  }
-}
- */
-
  @media screen and (max-width: 991px) {
     .navbar {
       height: 65px;
@@ -122,83 +53,3 @@
       background: rgb(159, 203, 159);
     }
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* .menu-bars {
-    margin-left: 2rem;
-    font-size: 2rem;
-    background: none;
-  }
-
-  .nav-menu {
-    background-color: rgba(0, 0, 0, 0.031);
-    width: 250px;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-    top: 0;
-    left: -100%;
-    transition: 850ms;
-
-  }
-
-  .nav-menu.active {
-    left: 0;
-    transition: 350ms;
-  }
-
-  .nev-text {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    padding: 8px 0px 8px 16px;
-    list-style: none;
-    height: 60px;
-  }
-
-  .nev-text a {
-    text-decoration: none;
-    color: royalblue;
-    font-size: 20px;
-    height: 100%;
-    display: flex;
-    padding: 0 16px;
-    border-radius: 4px;
-    
-  }
-
-  .nev-text a:hover {
-    background-color: royalblue;
-  } 
-
-  .nav-menu-items {
-    width:  100%;
-  }
-
-  .navbar-toggle {
-    background-color: #060b26;
-    width: 100%;
-    height: 80px;
-    display: flex;
-    align-items: center;
-  }
-
-  span {
-    margin-left: 16px;
-  }
-
-   */

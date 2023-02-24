@@ -1,10 +1,8 @@
 #background-color {
-    background-color: rgb(185, 241, 145);
-    /* border-radius: 10px; */
+    background-color: transparent;
     padding: 20px;
     box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
       rgba(14, 14, 14, 0.31) 0 2px 4px 3px;
-
       border-bottom-left-radius: 100px;
 
   }
