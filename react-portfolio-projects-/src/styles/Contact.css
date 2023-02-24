@@ -3,7 +3,7 @@ section {
     background-image: linear-gradient(rgba(48, 48, 124, 0.8), rgba(0, 0, 50, 0.8)); 
     background-size: cover;
     background-position: center;
-    /* height: 100vh; */
+   
 }
 
 .container {
@@ -30,8 +30,6 @@ section {
  .flex-start {
   border: 1px solid #fff;
  }
-
-
 
   .--dir-column {
     flex-direction: column;
@@ -60,14 +58,14 @@ section {
     font-weight: 400;
     padding: 0.3rem 1.8rem;
     margin: 0.3rem 0.3rem 0 0;
-    border: 1px solid transparent;
+    border: none;
     border-radius: 3px;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: all 0.3s;
-    color: grey;
+    color: #fff;
   }
 
   .--btn:hover {

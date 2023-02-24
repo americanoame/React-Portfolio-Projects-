@@ -45,8 +45,8 @@ export default function Portfolio() {
 
     <section id="projects" className="py-5">
       <div className="container">
-        <h2 className="text-center">Portfolio</h2>
-        <p className="text-center">My Recent Work</p>
+        <h2 className="text-center">Projects</h2>
+        <p className="text-center">Check out the Latest work</p>
         <div className="row">
           <Projects images={images} />
         </div>
