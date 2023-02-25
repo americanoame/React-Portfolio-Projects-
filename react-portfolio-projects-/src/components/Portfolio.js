@@ -1,7 +1,7 @@
 import Projects from './Projects';
-// import img1 from '../images/Good1.png';
+import img1 from '../images/Note-Taker.png';
 import img2 from '../images/E-commerce.png';
-// import img3 from '../images/Good1.png';
+import img3 from '../images/Google.png';
 // import img4 from '../images/Good2.png';
 // import img5 from '../images/Good1.png';
 
@@ -9,24 +9,29 @@ export default function Portfolio() {
 
   const images = [
     {
-      // src: img1,
+      src: img1,
       alt: 'Note-Taker',
-      title: 'Redux-e-commerce-platform',
-      description: 'An Express.js App',
+      title: 'GitHub Repo',
+      description: 'Deployed App',
+      link: '',
+      deployed: ''
     },
     {
       src: img2,
-      alt: 'Redux',
+      alt: 'Redux-E-commerce',
       title: 'GitHub Repo',
-      description: 'Deployed',
+      description: 'Deployed App',
       link: 'https://github.com/americanoame/Redux-e-commerce-platform',
       deployed: 'https://redux-e-commerce.herokuapp.com'
     },
     {
-      // src: img3,
+      src: img3,
       alt: 'Note-Taker',
       title: 'Note-Taker',
       description: 'An Express.js App',
+      link: '',
+      deployed: ''
+
     },
     {
       // src: img4,

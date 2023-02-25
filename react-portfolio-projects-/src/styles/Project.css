@@ -12,6 +12,7 @@
 
 .card-body a:hover {
     color: rgb(212, 212, 95);
+    transition: all .2s;
 }
 
 
@@ -39,7 +40,6 @@
  font-size: 18px;
 
 }
-
 
 .text-center {
     color: #fff;
