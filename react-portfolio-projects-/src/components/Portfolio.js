@@ -15,7 +15,6 @@ export default function Portfolio() {
       description: 'An Express.js App',
     },
     {
-      // id: 2,
       src: img2,
       alt: 'Redux',
       title: 'Redux-e-commerce-platform',

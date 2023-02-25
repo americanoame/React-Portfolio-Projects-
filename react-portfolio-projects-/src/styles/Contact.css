@@ -6,7 +6,24 @@ section {
    
 }
 
-.container {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
     max-width: 100%;
 
 }
@@ -18,9 +35,9 @@ section {
     color: rgb(107, 159, 38);
     font-weight: 600;
     font-family: Georgia, 'Times New Roman', Times, serif;
-  }
+  } */
   
-  .--flex-center {
+  /* .--flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,4 +96,4 @@ section {
     margin-top: 2px;
     border-radius: 5px;
   }
-  
+   */
