@@ -1,7 +1,7 @@
 .navbar {
-  background: linear-gradient(217deg, rgba(137, 132, 132, 0.8), rgba(255,0,0,0) 70.71%),
-  linear-gradient(127deg, rgba(153, 188, 153, 0.113), rgba(0,255,0,0) 70.71%),
-  linear-gradient(336deg, rgba(107, 107, 137, 0.268), rgba(0,0,255,0) 70.71%);
+  background: linear-gradient(217deg, rgba(137, 132, 132, 0.8), rgba(255, 0, 0, 0) 70.71%),
+    linear-gradient(127deg, rgba(153, 188, 153, 0.113), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgba(107, 107, 137, 0.268), rgba(0, 0, 255, 0) 70.71%);
   height: 160px;
   position: sticky;
 }
@@ -18,9 +18,10 @@
   font-size: 40px;
   color: rgb(128, 133, 150);
   margin-left: 20px;
-  font-family: 'Franklin Gothic Medium', 
-  'Arial Narrow', Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium',
+    'Arial Narrow', Arial, sans-serif;
 }
+
 
 .nav-item {
   color: rgb(128, 133, 150);
@@ -29,8 +30,9 @@
   margin: 0 10px;
   cursor: pointer;
   z-index: 1;
-  
+
 }
+
 
 .resume {
   color: rgb(66, 64, 64);
@@ -45,11 +47,23 @@
   transition: all .2s;
 }
 
+@media screen and (max-width: 991px) {
+  .navbar {
+    height: 65px;
+    background: rgb(146, 162, 119);
 
- @media screen and (max-width: 991px) {
-    .navbar {
-      height: 65px;
 
-      background: rgb(159, 203, 159);
-    }
- }
+  }
+  
+  .navbar-collapse {
+    background: rgb(146, 162, 119);
+    z-index: 1;
+
+
+  }
+
+  .navbar a:hover {
+    color: #fff;
+  }
+
+}

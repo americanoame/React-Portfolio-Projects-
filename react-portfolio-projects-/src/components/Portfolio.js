@@ -13,8 +13,8 @@ export default function Portfolio() {
       alt: 'Note-Taker',
       title: 'GitHub Repo',
       description: 'Deployed App',
-      link: '',
-      deployed: ''
+      link: 'https://github.com/americanoame/Note-Taker',
+      deployed: 'https://note-taker-andre.herokuapp.com/notes'
     },
     {
       src: img2,
@@ -26,10 +26,10 @@ export default function Portfolio() {
     },
     {
       src: img3,
-      alt: 'Note-Taker',
-      title: 'Note-Taker',
-      description: 'An Express.js App',
-      link: '',
+      alt: 'Google Book Search',
+      title: 'GitHub Repo',
+      description: 'Deployed App',
+      link: 'https://github.com/americanoame/MERN-Book-Search-Engine',
       deployed: ''
 
     },
