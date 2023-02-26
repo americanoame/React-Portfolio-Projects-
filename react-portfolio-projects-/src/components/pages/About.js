@@ -10,19 +10,19 @@ export default function About() {
                 <div className='row'>
                     <div className='col-lg-6 mx-auto text-center'>
                         <img src={photo1} alt='andre' className='img-fluid mb-5 rounded-circle' />
-                        <h2 className='text-secondary'>Andre Silva</h2>
-                        <p className='lead text-muted mb-5'>Coding life | Golfing Life</p>
+                        <h2 className='text-secondary'>Full-Stack Web Developer</h2>
+                        <p className='lead text-muted mb-5'>Andre Silva</p>
                     </div>
                 </div>
 
                 <div id='background-color' className='row'>
                     <div className='col-lg-6 mx-auto'>
 
-                        <p className='lead text-muted mb-3'>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                        <p className='lead text-muted mb-3'>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                        <p className='lead text-muted mb-3'>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                        <p className='lead text-muted mb-3'>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
-                        <p className='lead text-muted mb-3'>is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <p className='lead text-muted mb-3'>I am a highly motivated and web developer recent grauduated from Rutgers Coding Bootcamp.</p>
+                        <p className='lead text-muted mb-3'>Throughout my studies, I have consistently demonstrated my passion </p>
+                        <p className='lead text-muted mb-3'>for creating innovative and user-friendly websites that meet the needs of diverse audiences. I have had the opportunity </p>
+                        <p className='lead text-muted mb-3'>to work on a variety of projects and technologies, which has allowed me to develop a well-rounded skill set </p>
+                        <p className='lead text-muted mb-3'>and deep understanding of web development. I am always eager to expand my knowledge and take on new challenges. </p>
 
                     </div>
                 </div>
