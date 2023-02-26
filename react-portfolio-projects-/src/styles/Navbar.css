@@ -8,6 +8,7 @@
 
 .navbar a {
   text-decoration: none;
+  margin: 0;
 }
 
 .navbar a:hover {
@@ -51,19 +52,33 @@
   .navbar {
     height: 65px;
     background: rgb(146, 162, 119);
+    margin: 0;
 
 
   }
-  
+
   .navbar-collapse {
     background: rgb(146, 162, 119);
     z-index: 1;
 
-
+    
   }
 
   .navbar a:hover {
     color: #fff;
   }
 
+  .brand {
+    font-size: 40px;
+    color: #fff;
+    margin-left: 20px;
+    font-family: 'Franklin Gothic Medium',
+      'Arial Narrow', Arial, sans-serif;
+  }
+
+  .navbar-toggler {
+    margin-right: 8px;
+    margin-bottom: 10px;
+    
+  }
 }
