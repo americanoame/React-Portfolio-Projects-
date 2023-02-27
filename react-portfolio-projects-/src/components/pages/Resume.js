@@ -1,11 +1,11 @@
 // import React from 'react';
 // import React, { useState } from 'react';
 import Cv1 from "../../images/Cv1.jpg";
+import Cv2 from "../../images/cv.pdf";
 import '../../styles/Resume.css';
 
 
 const PDF_FILE_URL = 'http://localhost:3000/andreSilva-Resume.pdf'
-
 
 
 export default function Resume() {
@@ -29,17 +29,16 @@ export default function Resume() {
 
     };
 
-
     return (
 
         <div className="container my-5">
 
             <div className='d-flex justify-content-end'>
 
-                {/* <a href={url} download>Click to download</a> */}
+                {/* <a href={Cv2} download>Click to download</a> */}
 
 
-                <button onClick={() => { downloadFileAtURL(PDF_FILE_URL) }}>Download PDF</button>
+                <button onClick={() => { downloadFileAtURL(Cv2) }}>Download PDF</button>
             </div>
             {/* {pdfData && ( */}
             <div className="row">
