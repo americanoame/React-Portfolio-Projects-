@@ -15,6 +15,13 @@
  }
 
 
+ .about-me-text {
+  color: #fff;
+  font-size: 19px;
+  font-weight: 200;
+ }
+
+
   img {
     width: 450px;
   }
