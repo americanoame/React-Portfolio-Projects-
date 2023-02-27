@@ -7,6 +7,14 @@
 
   }
 
+ #section-about {
+    /* position: relative; */
+    background-image: linear-gradient(rgba(48, 48, 124, 0.8), rgba(0, 0, 50, 0.8)); 
+    background-size: cover;
+    background-position: center;
+ }
+
+
   img {
     width: 450px;
   }
