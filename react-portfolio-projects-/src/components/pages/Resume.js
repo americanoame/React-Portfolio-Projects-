@@ -4,6 +4,7 @@ import '../../styles/Resume.css';
 
 export default function Resume() {
 
+
     return (
 
         <div className="container my-5">
@@ -81,6 +82,16 @@ export default function Resume() {
                             </li>
                         </ul>
                     </div>
+                    <hr />
+                    <h3 className="mb-3">Skills</h3>
+                    <ul className="">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Node</li>
+                        <li>React</li>
+                        <li>MongoDb/ Mongoose</li>
+                    </ul>
 
                     <div className="card mt-5">
                         <div className="card-body">
