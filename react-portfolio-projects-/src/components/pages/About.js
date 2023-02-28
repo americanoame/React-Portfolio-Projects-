@@ -18,7 +18,8 @@ export default function About() {
                 <div id='background-color' className='row'>
                     <div className='col-lg-6 mx-auto'>
 
-                        <p className='about-me-text'>I am a highly motivated and web developer recent grauduated from Rutgers Coding Bootcamp.</p>
+                        <p className='about-me-text'>Hello hello🇧🇷  I'm andre, a web developer recent grauduated from Rutgers Coding Bootcamp.</p>
+                        <p className='about-me-text'>and i am so happy to be able to share my journey in this little peace of art.</p>
                         <p className='about-me-text'>Throughout my studies, I have consistently demonstrated my passion </p>
                         <p className='about-me-text'>for creating innovative and user-friendly websites that meet the needs of diverse audiences. I have had the opportunity </p>
                         <p className='about-me-text'>to work on a variety of projects and technologies, which has allowed me to develop a well-rounded skill set </p>

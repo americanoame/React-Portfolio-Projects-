@@ -40,7 +40,7 @@ export default function Resume() {
 
                 <button onClick={() => { downloadFileAtURL(Cv2) }}>Download PDF</button>
             </div>
-    
+
             <div className="row">
 
                 <div className="col-lg-2">
@@ -51,16 +51,18 @@ export default function Resume() {
                 <div className="col-lg-8">
                     <h1 className="header-name">Andre Silva</h1>
                     <h2 className="header-task">
-                        Full Stack Web Developer / Caddie / Golf Player
+                        Full Stack Web Developer / Caddie
                     </h2>
                     <hr />
                     <div className="header-summary">
 
-                        <p>am a highly motivated and web developer recent grauduated from Rutgers Coding Bootcamp.
-
-                            Throughout my studies, I have consistently demonstrated my passion
-
-                            for creating innovative and user-friendly websites that meet the needs of diverse audiences. I have had the opportunity
+                        <p>Highly motivated individual with a passion for
+                            web development and a strong background in customer
+                            service. Committed to providing excellent customer
+                            service and delivering results. Seeking a career
+                            transition to web development where I can leverage
+                            my customer service experience to provide exceptional
+                            web development solutions.
                         </p>
                     </div>
 
@@ -76,6 +78,10 @@ export default function Resume() {
                             <li>
                                 provide support and assistance to golfers during their round of golf,
                                 helping them to navigate the course and make the most of their game.
+                            </li>
+                            <li>
+                                Managed day-to-day operations of the golf course, including scheduling,
+                                and customer service
                             </li>
                         </ul>
                     </div>
@@ -124,9 +130,11 @@ export default function Resume() {
 
                     <div className="card mt-5">
                         <div className="card-body">
-                            <h3 className="card-title">Master of Science, Computer Science</h3>
-                            <h4 className="card-subtitle mb-2 text-muted">Stanford University</h4>
-                            <p className="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac est eu est aliquam dictum. Integer tristique mauris eu malesuada rutrum.</p>
+                            <h2 className="education-text">Education</h2>
+                            <h3 className="card-title">Full Stack Web Developer</h3>
+                            <h4 className="card-subtitle mb-2 text-muted">
+                                Rutgers University Coding Bootcamp</h4>
+                            <p className="card-text">Nov 17 2022 - Feb 17 2023</p>
                         </div>
                     </div>
 
