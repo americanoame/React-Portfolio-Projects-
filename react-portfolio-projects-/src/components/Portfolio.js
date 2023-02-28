@@ -1,42 +1,47 @@
 // import Projects from './Projects';
-import img1 from '../images/Note-Taker.png';
-// import img2 from '../images/E-commerce.png';
-// import img3 from '../images/Google.png';
+import noteTaker from '../images/Note-Taker.png';
+import img2 from '../images/E-commerce.png';
+import img3 from '../images/Google.png';
 // import img4 from '../images/Good2.png';
 // import img5 from '../images/Good1.png';
 
-
+import '../styles/Project.css';
 
 
 export default function Portfolio() {
 
   return (
 
-    <div class="container">
-      <div class="row">
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src={img1} class="card-img-top" alt="Image 1" />
-            <div class="card-body">
-              <h5 class="card-title">Card 1</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src={img1} class="card-img-top" alt="Image 1" />
-            <div class="card-body">
-            <a href="https://github.com/americanoame" className='btn btn-primary'>GitHub</a>
+    <div id='portfolio-section' className="container">
+
+      <h2 className="text-center">Portfolio</h2>
+      <p className="text-center">Check Out The Latest Work:</p>
+
+      <div className="row">
+        <div className="col-md-4 mb-4">
+          <div className="card">
+            <img src={noteTaker} className="card-img-top" alt="Image 1" />
+            <div className="card-body">
+              <a href="https://github.com/americanoame" className='btn btn-primary'>GitHub</a>
               <a href="https://github.com/americanoame" className='btn btn-primary'>Deployed</a>
               <p className="card-text">Redux-e-commerce-platform</p>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src={img1} class="card-img-top" alt="Image 1" />
-            <div class="card-body">
+        <div className="col-md-4 mb-4">
+          <div className="card">
+            <img src={img2} className="card-img-top" alt="Image 1" />
+            <div className="card-body">
+              <a href="https://github.com/americanoame" className='btn btn-primary'>GitHub</a>
+              <a href="https://github.com/americanoame" className='btn btn-primary'>Deployed</a>
+              <p className="card-text">Redux-e-commerce-platform</p>
+            </div>
+          </div>
+        </div>
+        <div className="col-md-4 mb-4">
+          <div className="card">
+            <img src={img3} className="card-img-top" alt="Image 1" />
+            <div className="card-body">
               <a href="https://github.com/americanoame" className='btn btn-primary'>GitHub</a>
               <a href="https://github.com/americanoame" className='btn btn-primary'>Deployed</a>
               <p className="card-text">Redux-e-commerce-platform</p>
@@ -44,37 +49,40 @@ export default function Portfolio() {
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col-md-4 mb-4">
-          <div class="card">
-            <img src={img1} class="card-img-top" alt="Image 1" />
-            <div class="card-body">
-              <h5 class="card-title">Card 4</h5>
-              <p class="card-text">Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.</p>
+      <div className="row">
+        <div className="col-md-4 mb-4">
+          <div className="card">
+            <img src={noteTaker} className="card-img-top" alt="Image 1" />
+            <div className="card-body">
+              <a href="https://github.com/americanoame" className='btn btn-primary'>GitHub</a>
+              <a href="https://github.com/americanoame" className='btn btn-primary'>Deployed</a>
+              <p className="card-text">Redux-e-commerce-platform</p>
             </div>
           </div>
         </div>
         <div class="col-md-4 mb-4">
           <div class="card">
-            <img src={img1} class="card-img-top" alt="Image 1" />
-            <div class="card-body">
-              <h5 class="card-title">Card 5</h5>
-              <p class="card-text">Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.</p>
+            <img src={noteTaker} className="card-img-top" alt="Image 1" />
+            <div className="card-body">
+              <a href="https://github.com/americanoame" className='btn btn-primary'>GitHub</a>
+              <a href="https://github.com/americanoame" className='btn btn-primary'>Deployed</a>
+              <p className="card-text">Redux-e-commerce-platform</p>
             </div>
           </div>
         </div>
         <div class="col-md-4 mb-4">
           <div class="card">
-            <img src={img1} class="card-img-top" alt="Image 1" />
-            <div class="card-body">
-              <h5 class="card-title">Card 6</h5>
-              <p class="card-text">Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+            <img src={noteTaker} className="card-img-top" alt="Image 1" />
+            <div className="card-body">
+              <a href="https://github.com/americanoame" className='btn btn-primary'>GitHub</a>
+              <a href="https://github.com/americanoame" className='btn btn-primary'>Deployed</a>
+              <p className="card-text">Redux-e-commerce-platform</p>
             </div>
           </div>
         </div>
       </div>
-      
- </div>
+
+    </div>
 
 
   )

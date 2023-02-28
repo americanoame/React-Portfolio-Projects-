@@ -1,8 +1,7 @@
-/* .portfolio-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 2.5rem;
-} */
+#portfolio-section {
+    background: bisque;
+    margin-top: 5px;
+}
 
 
 

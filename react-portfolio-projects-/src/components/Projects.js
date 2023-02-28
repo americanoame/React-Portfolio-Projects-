@@ -6,7 +6,7 @@
 //     console.log(images)
 //     return (
 //         <>
-//             {images.map(({ src, alt, title, description, link, deployed}) => (
+            // {images.map(({ src, alt, title, description, link, deployed}) => (
 //                 <div id='background2' className="col-12 col-sm-6 col-lg-4" key={alt}>
 
 //                     <div className="container">
