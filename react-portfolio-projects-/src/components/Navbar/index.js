@@ -4,7 +4,7 @@ function Navbar({ currentPage, handlePageChange }) {
     return (
 
         <nav className="navbar navbar-expand-lg">
-            <div class="container-fluid">
+            <div className="container-fluid">
                 <a className="navbar-brand" href="#about" onClick={() => handlePageChange('About')}>
                     <span href='/' className="brand">Andre Silva</span>
 

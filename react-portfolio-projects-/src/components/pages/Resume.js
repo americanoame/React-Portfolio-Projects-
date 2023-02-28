@@ -5,7 +5,7 @@ import Cv2 from "../../images/cv.pdf";
 import '../../styles/Resume.css';
 
 
-const PDF_FILE_URL = 'http://localhost:3000/andreSilva-Resume.pdf'
+// const PDF_FILE_URL = 'http://localhost:3000/andreSilva-Resume.pdf'
 
 
 export default function Resume() {
@@ -40,12 +40,8 @@ export default function Resume() {
 
                 <button onClick={() => { downloadFileAtURL(Cv2) }}>Download PDF</button>
             </div>
-            {/* {pdfData && ( */}
+    
             <div className="row">
-
-                {/* <object data={URL.createObjectURL(pdfData)} type="application/pdf">
-                            <embed src={URL.createObjectURL(pdfData)} type="application/pdf" />
-                        </object> */}
 
                 <div className="col-lg-2">
                     <img src={Cv1} alt='andre' className='img-fluid mb-5 rounded-circle cv-image' />

@@ -22,7 +22,7 @@ const Email = () => {
         <section className="py-5">
             <div className="container">
                 <div className="d-flex justify-content-center">
-                    <div class="col-12 col-sm-8 col-lg-6">
+                    <div className="col-12 col-sm-8 col-lg-6">
                         <h2 className="text-center">Contact Me</h2>
                         <p className="text-center">Feel free to reach out to me:</p>
                         <form ref={form} onSubmit={sendEmail}>
