@@ -1,17 +1,10 @@
-// import React from 'react';
 import React, {useState} from 'react';
-
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-
 import Navbar from './components/Navbar';
 import About from './components/pages/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/pages/Contact';
 import Resume from './components/pages/Resume';
 import Footer from './components/Footer';
-
-
-// import Projects from './components/pages/Projects';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
@@ -47,81 +40,3 @@ export default function App() {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-// export default function app() {
-//   return (
-//     <Router>
-//       <Navbar />
-
-//       <Routes>
-//         <Route path='/' element={<About/>}>
-          
-//         </Route>
-
-//         <Route path='/portfolio' element={<Portfolio/>}>
-          
-//         </Route>
-
-//         <Route path='/Contact' element={<Contact/>}>
-          
-//         </Route>
-
-//         <Route path='/resume' element={<Resume/>}>
-          
-//         </Route>
-
-//       </Routes>
-
-//       <Footer />
-//     </Router>
-//   )
-// }
-
-
-
-
-
-// // function App() {
-// //   return (
-// //     <Router>
-// //       <div>
-
-
-//         <Routes>
-//           <Route>
-//             <Route path="/contact"
-//               element={<Contact />}
-//             />
-
-//             <Route
-//               path="/project"
-//               element={<Project />}
-//             />
-
-//             <Route
-//               path="/navbar"
-//               element={<Navbar />}
-//             />
-
-//             {/* <Route
-//             path="/resume"
-//             element={<Resume />}
-//           />  */}
-//           </Route>
-//         </Routes>
-//       </div>
-//     </Router>
-//   );
-// }
-
-// export default App;

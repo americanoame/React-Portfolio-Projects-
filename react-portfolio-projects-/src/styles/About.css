@@ -1,33 +1,29 @@
 #background-color {
-    background-color: transparent;
-    padding: 20px;
-    box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
-      rgba(14, 14, 14, 0.31) 0 2px 4px 3px;
-      border-bottom-left-radius: 100px;
+  background-color: transparent;
+  padding: 20px;
+  box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
+    rgba(14, 14, 14, 0.31) 0 2px 4px 3px;
+  border-bottom-left-radius: 100px;
+}
 
-  }
+#section-about {
+  background-image: linear-gradient(rgba(48, 48, 124, 0.8), rgba(0, 0, 50, 0.8));
+  background-size: cover;
+  background-position: center;
+}
 
- #section-about {
-    /* position: relative; */
-    background-image: linear-gradient(rgba(48, 48, 124, 0.8), rgba(0, 0, 50, 0.8)); 
-    background-size: cover;
-    background-position: center;
- }
-
-
- .about-me-text {
+.about-me-text {
   color: #fff;
   font-size: 19px;
   font-weight: 200;
- }
+}
 
+img {
+  width: 450px;
+}
 
+@media screen and (max-width: 991px) {
   img {
     width: 450px;
   }
-
-  @media screen and (max-width: 991px) {
-    img {
-      width: 450px;
-    }
- }
+}
