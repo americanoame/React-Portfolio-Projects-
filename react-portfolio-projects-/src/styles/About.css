@@ -1,123 +1,125 @@
  section {
-  position: relative;
+   position: relative;
 
    background-image: linear-gradient(rgb(19, 30, 63), rgb(109, 173, 109)),
-    linear-gradient(127deg, rgba(36, 115, 36, 0.113), rgba(0, 255, 0, 0) 70.71%),
-    linear-gradient(336deg, rgb(14, 14, 59), rgba(0, 0, 255, 0) 70.71%);
-  background-size: cover;
-  background-position: center;
+     linear-gradient(127deg, rgba(36, 115, 36, 0.113), rgba(0, 255, 0, 0) 70.71%),
+     linear-gradient(336deg, rgb(14, 14, 59), rgba(0, 0, 255, 0) 70.71%);
+   background-size: cover;
+   background-position: center;
 
-}  
-
-
-.text-center {
-  background-image: linear-gradient(rgb(19, 30, 63), rgb(109, 173, 109)),
-  linear-gradient(127deg, rgba(36, 115, 36, 0.113), rgba(0, 255, 0, 0) 70.71%),
-  linear-gradient(336deg, rgb(14, 14, 59), rgba(0, 0, 255, 0) 70.71%);
-}
+ }
 
 
+ .text-center {
+   padding: 5px;
+   background-image: linear-gradient(rgb(19, 30, 63), rgb(109, 173, 109)),
+     linear-gradient(127deg, rgba(36, 115, 36, 0.113), rgba(0, 255, 0, 0) 70.71%),
+     linear-gradient(336deg, rgb(14, 14, 59), rgba(0, 0, 255, 0) 70.71%);
+ }
 
 
+ .--Full-Stack-text {
+   color: rgba(255, 253, 253, 0.657);
+ }
 
+ .--text-marketing {
+   font-family: Georgia,
+     'Times New Roman',
+     Times, serif;
+   font-size: 35px;
+   padding: 10px;
+   color: rgba(255, 253, 253, 0.201);
+   animation: fadeIn 5s;
+   -webkit-animation: fadeIn 5s;
+   -moz-animation: fadeIn 5s;
+   -o-animation: fadeIn 5s;
+   -ms-animation: fadeIn 5s;
+ }
 
+ @keyframes fadeIn {
+   0% {
+     opacity: 0;
+   }
 
-.--Full-Stack-text {
-  color: rgba(255, 253, 253, 0.657);
-}
+   100% {
+     opacity: 1;
+   }
+ }
 
-.--text-marketing {
-  color: rgba(255, 253, 253, 0.289);
-  font-size: 22px;
-  padding: 10px;
+ @-moz-keyframes fadeIn {
+   0% {
+     opacity: 0;
+   }
 
-}
+   100% {
+     opacity: 1;
+   }
+ }
 
-.--text-marketing {
-  font-family: Arial;
-  font-size: 50px;
-  animation: fadeIn 5s;
-  -webkit-animation: fadeIn 5s;
-  -moz-animation: fadeIn 5s;
-  -o-animation: fadeIn 5s;
-  -ms-animation: fadeIn 5s;
-}
+ @-webkit-keyframes fadeIn {
+   0% {
+     opacity: 0;
+   }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
+   100% {
+     opacity: 1;
+   }
+ }
 
-  100% {
-    opacity: 1;
-  }
-}
+ @-o-keyframes fadeIn {
+   0% {
+     opacity: 0;
+   }
 
-@-moz-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
+   100% {
+     opacity: 1;
+   }
+ }
 
-  100% {
-    opacity: 1;
-  }
-}
+ @-ms-keyframes fadeIn {
+   0% {
+     opacity: 0;
+   }
 
-@-webkit-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
+   100% {
+     opacity: 1;
+   }
+ }
 
-  100% {
-    opacity: 1;
-  }
-}
+ #--section-about-me-text {
+   padding: 20px;
+   margin: 5px;
+   background-image: linear-gradient (rgb(19, 30, 63), rgb(109, 173, 109)),
+     linear-gradient (127deg, rgba(36, 115, 36, 0.113), rgba(0, 255, 0, 0) 70.71%),
+     linear-gradient (336deg, rgb(14, 14, 59), rgba(0, 0, 255, 0) 70.71%);
+   background-size: cover;
+   background-position: center;
+   box-shadow: rgba(14, 14, 14, 2) 0 1px 2px 0,
+     rgba(14, 14, 14, 0.31) 0 2px 4px 3px;
+ }
 
-@-o-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
+ .-about-me-text {
+   color: rgba(255, 253, 253, 0.657);
+   font-size: 19px;
+   font-weight: 300;
+ }
 
-  100% {
-    opacity: 1;
-  }
-}
+ img {
+   width: 450px;
+ }
 
-@-ms-keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
+ @media screen and (max-width: 991px) {
+   img {
+     width: 450px;
+   }
 
-  100% {
-    opacity: 1;
-  }
-}
+   .--text-marketing {
+     font-size: 35px;
+   }
+ }
 
-#--section-about-me-text {
-  padding: 20px;
-  margin: 5px;
-  background-image: linear-gradient(rgb(19, 30, 63), rgb(109, 173, 109)),
-    linear-gradient(127deg, rgba(36, 115, 36, 0.113), rgba(0, 255, 0, 0) 70.71%),
-    linear-gradient(336deg, rgb(14, 14, 59), rgba(0, 0, 255, 0) 70.71%);
-  background-size: cover;
-  background-position: center;
-  box-shadow: rgba(14, 14, 14, 2) 0 1px 2px 0,
-    rgba(14, 14, 14, 0.31) 0 2px 4px 3px;
-  /* border-bottom-left-radius: 100px; */
-}
-
-.-about-me-text {
-  color: rgba(255, 253, 253, 0.657);
-  font-size: 19px;
-  font-weight: 300;
-}
-
-img {
-  width: 450px;
-}
-
-@media screen and (max-width: 991px) {
-  img {
-    width: 450px;
-  }
-}
+ @media screen and (max-width: 576px) {
+   .--text-marketing {
+     font-size: 40px;
+   }
+ }
