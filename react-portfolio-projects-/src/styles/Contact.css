@@ -7,12 +7,19 @@ section {
     linear-gradient(336deg, rgb(14, 14, 59), rgba(0, 0, 255, 0) 70.71%); 
     background-size: cover;
     background-position: center;
+
+    
     
    
 }
 
 .text-center {
   color: #fff;
+}
+
+
+#botom-downn {
+  margin-top: 410px;
 }
 
 

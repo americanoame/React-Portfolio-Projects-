@@ -4,7 +4,7 @@ import '../../styles/About.css';
 
 export default function About() {
     return (
-        <section id='--section-about' className='py-5'>
+        <section className='py-5'>
 
             <div id='about' className='container'>
                 <div className='row'>
