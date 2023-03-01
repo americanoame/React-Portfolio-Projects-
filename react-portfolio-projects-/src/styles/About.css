@@ -1,4 +1,77 @@
-#background-color {
+#--section-about {
+  background-image: linear-gradient(rgb(19, 30, 63), rgb(109, 173, 109)),
+    linear-gradient(127deg, rgba(36, 115, 36, 0.113), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgb(14, 14, 59), rgba(0, 0, 255, 0) 70.71%);
+  background-size: cover;
+  background-position: center;
+}
+
+.--Full-Stack-text {
+  color: rgba(255, 253, 253, 0.657);
+}
+
+.--text-marketing {
+  color: rgba(255, 253, 253, 0.289);
+  font-size: 22px;
+  padding: 10px;
+
+}
+
+.--text-marketing {
+  font-family: Arial;
+  font-size: 50px;
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#--section-about-me-text {
   background-color: transparent;
   padding: 20px;
   box-shadow: rgba(60, 64, 67, 2) 0 1px 2px 0,
@@ -6,21 +79,17 @@
   border-bottom-left-radius: 100px;
 }
 
-#section-about {
-  background-image: linear-gradient(rgba(48, 48, 124, 0.8), rgba(0, 0, 50, 0.8));
-  background-size: cover;
-  background-position: center;
-}
-
-.about-me-text {
-  color: #fff;
+.-about-me-text {
+  color: rgba(255, 253, 253, 0.657);
   font-size: 19px;
-  font-weight: 200;
+  font-weight: 300;
 }
 
 img {
   width: 450px;
 }
+
+
 
 @media screen and (max-width: 991px) {
   img {

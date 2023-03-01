@@ -1,23 +1,26 @@
 .navbar {
-  background: linear-gradient(217deg, rgba(137, 132, 132, 0.8), rgba(255, 0, 0, 0) 70.71%),
-    linear-gradient(127deg, rgba(153, 188, 153, 0.113), rgba(0, 255, 0, 0) 70.71%),
-    linear-gradient(336deg, rgba(107, 107, 137, 0.268), rgba(0, 0, 255, 0) 70.71%);
-  height: 160px;
-  position: sticky;
+  background-image: linear-gradient(rgb(19, 30, 63), rgb(109, 173, 109)),
+    linear-gradient(127deg, rgba(36, 115, 36, 0.113), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgb(14, 14, 59), rgba(0, 0, 255, 0) 70.71%);
+  height: 130px;
+  
 }
 
 .navbar a {
+  color: #8d8c8c;
   text-decoration: none;
   margin: 0;
+  font-size: 22px;
 }
 
 .navbar a:hover {
-  color: rgb(146, 162, 119);
+  color: rgb(241, 230, 21);
+  transition: .4s;
 }
 
 .brand {
   font-size: 40px;
-  color: rgb(128, 133, 150);
+  color: rgba(255, 253, 253, 0.657);
   margin-left: 20px;
   font-family: 'Franklin Gothic Medium',
     'Arial Narrow', Arial, sans-serif;
@@ -34,29 +37,31 @@
 
 }
 
-.resume {
+/* .resume {
   color: rgb(66, 64, 64);
   border-radius: 10px;
   background-color: rgb(128, 133, 150);
 
-}
+} */
 
-.resume:hover {
+/* .resume:hover {
   background: rgb(146, 162, 119);
   color: #fff;
   transition: all .2s;
-}
+} */
 
 @media screen and (max-width: 991px) {
   .navbar {
     height: 65px;
-    background: rgb(146, 162, 119);
+    background-image: linear-gradient(rgb(19, 30, 63), rgb(109, 173, 109)),
+    linear-gradient(127deg, rgba(36, 115, 36, 0.113), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgb(14, 14, 59), rgba(0, 0, 255, 0) 70.71%);
     margin: 0;
 
   }
 
   .navbar-collapse {
-    background: rgb(146, 162, 119);
+    background-image: linear-gradient(rgb(19, 30, 63), rgb(89, 94, 89));
     z-index: 1;
 
     
@@ -68,7 +73,7 @@
 
   .brand {
     font-size: 40px;
-    color: #fff;
+    color: rgba(255, 253, 253, 0.657);
     margin-left: 20px;
     font-family: 'Franklin Gothic Medium',
       'Arial Narrow', Arial, sans-serif;

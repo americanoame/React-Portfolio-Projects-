@@ -1,5 +1,35 @@
 .text-center-port {
     text-align: center;
-    color: royalblue;
+    
+    
+    background-image: linear-gradient(rgb(19, 30, 63), rgb(145, 155, 145));
+    font-weight: 600;
+    color: #fff;
+    padding: 5px;
+    
 }
+
+ .--btn {
+    font-size: 1.0rem;
+    font-weight: 600;
+    padding: 0.3rem 1.0rem;
+    margin: 0.3rem 0.3rem 0 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    color: #fff;
+    background-image: linear-gradient(rgb(67, 87, 144), rgb(107, 197, 107));
+  } 
+
+  .--btn:hover {
+    color: rgb(241, 230, 21);
+  }
+
+  .card-body a {
+    text-decoration: none;
+  }
 

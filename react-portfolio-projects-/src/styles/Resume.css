@@ -1,12 +1,38 @@
+button {
+
+    font-size: 1.0rem;
+    font-weight: 500;
+    padding: 0.3rem 1.0rem;
+    margin: 0.3rem 0.3rem 0 0;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    color: #fff;
+    background-image: linear-gradient(rgb(67, 87, 144), rgb(107, 197, 107));
+
+}
+
+button:hover {
+    color: rgb(241, 230, 21);
+    
+}
+
+
+
+
 .header-name {
-   font-size: 30px;
+    font-size: 30px;
 }
 
 .header-task {
     font-size: 20px;
 }
 
-.header-summary  {
+.header-summary {
     font-size: 18px;
     background: papayawhip;
     padding: 15px;
@@ -17,8 +43,7 @@
     font-size: 30px;
 }
 
-.education-text 
-.card-title  {
+.education-text .card-title {
 
     text-align: center;
 }
@@ -29,7 +54,7 @@
     .cv-image {
         width: 30%;
     }
-   
+
 }
 
 
