@@ -1,26 +1,20 @@
-section {
-    position: relative;
-    /* background-image: linear-gradient(rgba(2, 2, 155, 0.8), rgba(0, 0, 50, 0.8));  */
 
-    background-image: linear-gradient(rgb(19, 30, 63), rgb(109, 173, 109)),
+
+.--text-center {
+  background-image: linear-gradient(rgb(19, 30, 63), rgb(109, 173, 109)),
     linear-gradient(127deg, rgba(36, 115, 36, 0.113), rgba(0, 255, 0, 0) 70.71%),
-    linear-gradient(336deg, rgb(14, 14, 59), rgba(0, 0, 255, 0) 70.71%); 
-    background-size: cover;
-    background-position: center;
+    linear-gradient(336deg, rgb(14, 14, 59), rgba(0, 0, 255, 0) 70.71%);
+    color: rgba(255, 253, 253, 0.657);
+    font-size: 30px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+  }
 
-    
-    
-   
-}
-
-.text-center {
-  color: #fff;
-}
+  
 
 
-#botom-downn {
-  margin-top: 410px;
-}
+
 
 
 
@@ -52,8 +46,8 @@ section {
     font-weight: 600;
     font-family: Georgia, 'Times New Roman', Times, serif;
   } */
-  
-  /* .--flex-center {
+
+/* .--flex-center {
     display: flex;
     justify-content: center;
     align-items: center;

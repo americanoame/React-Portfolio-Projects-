@@ -1,3 +1,27 @@
+ section {
+  position: relative;
+
+   background-image: linear-gradient(rgb(19, 30, 63), rgb(109, 173, 109)),
+    linear-gradient(127deg, rgba(36, 115, 36, 0.113), rgba(0, 255, 0, 0) 70.71%),
+    linear-gradient(336deg, rgb(14, 14, 59), rgba(0, 0, 255, 0) 70.71%);
+  background-size: cover;
+  background-position: center;
+
+}  
+
+
+.text-center {
+  background-image: linear-gradient(rgb(19, 30, 63), rgb(109, 173, 109)),
+  linear-gradient(127deg, rgba(36, 115, 36, 0.113), rgba(0, 255, 0, 0) 70.71%),
+  linear-gradient(336deg, rgb(14, 14, 59), rgba(0, 0, 255, 0) 70.71%);
+}
+
+
+
+
+
+
+
 .--Full-Stack-text {
   color: rgba(255, 253, 253, 0.657);
 }
