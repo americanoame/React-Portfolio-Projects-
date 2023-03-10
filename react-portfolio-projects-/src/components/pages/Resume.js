@@ -1,7 +1,7 @@
 // import React from 'react';
 // import React, { useState } from 'react';
 import Cv1 from "../../images/Cv1.jpg";
-import Cv2 from "../../images/cv.pdf";
+import Cv2 from "../../images/Resume.pdf";
 import '../../styles/Resume.css';
 
 
@@ -15,8 +15,7 @@ export default function Resume() {
     const downloadFileAtURL = (url) => {
         fetch(url).then(response => response.blob()).then(blob => {
             const blobURL = window.URL.createObjectURL(new Blob([blob]))
-
-
+            
             const fileName = url.split('/').pop();
             const aTag = document.createElement('a');
             aTag.href = blobURL;

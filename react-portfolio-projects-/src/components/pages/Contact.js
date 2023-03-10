@@ -19,26 +19,23 @@ const Email = () => {
     };
 
     return (
-
-
-        <div class="container my-5">
+        <div className="container my-5">
             <div className="d-flex justify-content-center">
                 <div className="col-12 col-sm-8 col-lg-6">
-                {/* <h2 className="text-center">Contact Me</h2> */}
                     <h1 className="--text-center">Please Contact Me for more information</h1>
                     <form ref={form} onSubmit={sendEmail}>
-                        <div class="mb-3">
-                            <label for="nameInput" class="form-label">Name</label>
-                            <input type="text" class="form-control" id="nameInput" name="user_name" required />
+                        <div className="mb-3">
+                            <label for="nameInput" className="form-label">Name</label>
+                            <input type="text" className="form-control" id="nameInput" name="user_name" required />
                         </div>
-                        <div class="mb-3">
-                            <label for="emailInput" class="form-label">Email address</label>
-                            <input type="email" class="form-control" id="emailInput" name="user_email" aria-describedby="emailHelp" required />
-                            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                        <div className="mb-3">
+                            <label for="emailInput" className="form-label">Email address</label>
+                            <input type="email" className="form-control" id="emailInput" name="user_email" aria-describedby="emailHelp" required />
+                            <div id="emailHelp" className="form-text">We'll never share your email with anyone else.</div>
                         </div>
-                        <div class="mb-3">
-                            <label for="messageInput" class="form-label">Message</label>
-                            <textarea class="form-control" id="messageInput" name="message" rows="3" required></textarea>
+                        <div className="mb-3">
+                            <label for="messageInput" className="form-label">Message</label>
+                            <textarea className="form-control" id="messageInput" name="message" rows="3" required></textarea>
                         </div>
 
                         <div>
