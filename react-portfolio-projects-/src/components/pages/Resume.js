@@ -127,7 +127,7 @@ export default function Resume() {
                         <li>MongoDb/ Mongoose</li>
                     </ul>
 
-                    <div className="card mt-5">
+                    <div className="card mt-5 mb-2">
                         <div className="card-body">
                             <h2 className="education-text">Education</h2>
                             <h3 className="card-title">Full Stack Web Developer</h3>
@@ -136,7 +136,7 @@ export default function Resume() {
                             <p className="card-text">Nov 17 2022 - Feb 17 2023</p>
                         </div>
                     </div>
-
+                    <button onClick={() => { downloadFileAtURL(Cv2) }}>Download PDF</button>
                 </div>
             </div>
             {/* )} */}
