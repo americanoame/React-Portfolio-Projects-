@@ -38,7 +38,7 @@ export default function Portfolio() {
               <img src={img3} className="card-img-top" alt="Image 1" />
               <div className="card-body">
                 <a href="https://github.com/americanoame" className='--btn btn-primary'>GitHub</a>
-                <a href="https://github.com/americanoame" className='--btn btn-primary'>Deployed</a>
+                <a href="https://andre-book-search.herokuapp.com" className='--btn btn-primary'>Deployed</a>
                 <p className="card-text">Redux-e-commerce-platform</p>
               </div>
             </div>

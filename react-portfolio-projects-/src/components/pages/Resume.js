@@ -1,7 +1,7 @@
 // import React from 'react';
 // import React, { useState } from 'react';
 import Cv1 from "../../images/Cv1.jpg";
-import Cv2 from "../../images/Resume.pdf";
+import Resume1 from "../../images/Resume1.pdf";
 import '../../styles/Resume.css';
 
 
@@ -15,7 +15,7 @@ export default function Resume() {
     const downloadFileAtURL = (url) => {
         fetch(url).then(response => response.blob()).then(blob => {
             const blobURL = window.URL.createObjectURL(new Blob([blob]))
-            
+
             const fileName = url.split('/').pop();
             const aTag = document.createElement('a');
             aTag.href = blobURL;
@@ -37,7 +37,7 @@ export default function Resume() {
                 {/* <a href={Cv2} download>Click to download</a> */}
 
 
-                <button onClick={() => { downloadFileAtURL(Cv2) }}>Download PDF</button>
+                <button onClick={() => { downloadFileAtURL(Resume1) }}>Download PDF</button>
             </div>
 
             <div className="row">
@@ -107,10 +107,10 @@ export default function Resume() {
                         <p className="time-range">April 2015 -  2019</p>
                         <ul>
                             <li>
-                                providing safe, reliable transportation to passengers
-                                while also representing the Uber brand and providing a positive customer experience.
+                                Providing safe and reliable transportation to passengers, while also representing 
+                                    the Uber brand and providing a positive customer experience.
                                 <li>
-                                    Throughout this task. i did 4293 trips and 1610 deliveries with no accident and always providing
+                                    Throughout this task, i did 4293 trips and 1610 deliveries with no accident, and always providing
                                     good costumer service and always safety first.
                                 </li>
                             </li>
@@ -119,12 +119,19 @@ export default function Resume() {
                     <hr />
                     <h3 className="mb-3">Skills</h3>
                     <ul className="">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>JavaScript</li>
-                        <li>Node</li>
-                        <li>React</li>
-                        <li>MongoDb/ Mongoose</li>
+                        React.js,
+                        Progressive Web Applications (PWAs),
+                        Node.js,
+                        MySQL,
+                        MongoDB,
+                        MERN Stack,
+                        JavaScript,
+                        HTML,
+                        Git,
+                        Express.js,
+                        CSS,
+                        API Interactions,
+                        AJAX
                     </ul>
 
                     <div className="card mt-5 mb-2">
@@ -136,7 +143,7 @@ export default function Resume() {
                             <p className="card-text">Nov 17 2022 - Feb 17 2023</p>
                         </div>
                     </div>
-                    <button onClick={() => { downloadFileAtURL(Cv2) }}>Download PDF</button>
+                    <button onClick={() => { downloadFileAtURL(Resume1) }}>Download PDF</button>
                 </div>
             </div>
             {/* )} */}
